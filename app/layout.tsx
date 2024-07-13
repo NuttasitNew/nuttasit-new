@@ -18,9 +18,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <main className="relative min-h-screen bg-gradient-to-r from-black via-gray-900 to-black ">
+        <main className="grid grid-cols-1 max-w-screen  min-h-screen bg-gradient-to-r from-black via-gray-900 to-black ">
           <div className="absolute text-6xl justify-center text-gray-500/20 right-0 bottom-[300px] tracking-widest">
-            NUTTASIT NEW
+            Full-Stack Developer
           </div>
           <HeaderNav />
           {children}

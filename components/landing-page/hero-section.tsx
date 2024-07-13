@@ -3,7 +3,7 @@ import React from "react";
 const HeroSection = () => {
   return (
     <header className="text-white h-[510px] w-full">
-      <span className="flex flex-col items-center justify-center h-full text-4xl text-center space-y-6">
+      <span className="flex flex-col items-center justify-center h-full text-4xl text-center space-y-6 p-4">
         <div>“A mark of lifelong learners is recognizing</div>
         <div>that they can learn something from everyone they meet.”</div>
         <div className="text-3xl">

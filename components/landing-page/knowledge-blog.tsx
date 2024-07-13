@@ -12,7 +12,7 @@ const KnowledgeBlog = () => {
     <section className="flex justify-center w-full h-[800px]  mt-[70px]">
       <div className="text-white flex flex-col max-w-[1080px] w-full h-[800px] p-6 space-y-6  ">
         <div className="text-4xl">Knowledge</div>
-        <div className="grid grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 line-clamp-2 lg:grid-cols-3 gap-4">
           <KnowledgeCard />
           <KnowledgeCard />
           <KnowledgeCard />
